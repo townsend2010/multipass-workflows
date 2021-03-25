@@ -1,0 +1,11 @@
+description: minikube is local Kubernetes
+
+instances:
+  minikube:
+    image: "release:lts"
+    limits:              # optional
+      min-cpu: 2
+      min-mem: 2G
+      min-disk: 20G
+    cloud-init:
+      run-cmd: []

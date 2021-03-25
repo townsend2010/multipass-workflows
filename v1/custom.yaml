@@ -1,0 +1,11 @@
+description: Custom instance
+
+instances:
+  minikube:
+    image: "release:bionic"
+    limits:              # optional
+      min-cpu: 1
+      min-mem: 2G
+      min-disk: 15G
+    cloud-init:
+      run-cmd: []
