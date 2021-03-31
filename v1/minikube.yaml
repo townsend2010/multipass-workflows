@@ -2,7 +2,7 @@ description: minikube is local Kubernetes
 
 instances:
   minikube:
-    image: "release:lts"
+    image: "lts"
     limits:              # optional
       min-cpu: 2
       min-mem: 2G
