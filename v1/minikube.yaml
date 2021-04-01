@@ -11,3 +11,7 @@ instances:
       runcmd:
       - echo "We did it!" > /tmp/wow
       - echo "This works too!" > /tmp/too
+      apt:
+        primary:
+        - arches: [default]
+          uri: http://us.archive.ubuntu.com/ubuntu/
