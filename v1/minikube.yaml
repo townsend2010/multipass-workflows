@@ -8,4 +8,6 @@ instances:
       min-mem: 2G
       min-disk: 20G
     cloud-init:
-      run-cmd: []
+      runcmd:
+      - echo "We did it!" > /tmp/wow
+      - echo "This works too!" > /tmp/too
