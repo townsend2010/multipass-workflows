@@ -1,9 +1,10 @@
 description: Custom instance
 
 instances:
-  minikube:
+  custom:
+    version: 0.1
     image: "release:bionic"
-    limits:              # optional
+    limits:
       min-cpu: 1
       min-mem: 2G
       min-disk: 15G
