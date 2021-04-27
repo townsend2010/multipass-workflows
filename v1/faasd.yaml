@@ -1,4 +1,5 @@
 description: A portable FaaS framework
+version: 0.2
 
 instances:
   faasd:

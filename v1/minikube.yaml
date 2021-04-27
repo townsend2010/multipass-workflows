@@ -1,4 +1,5 @@
 description: minikube is local Kubernetes
+version: 1.0alpha1
 
 instances:
   minikube:

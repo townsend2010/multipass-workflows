@@ -1,4 +1,5 @@
 description: Custom instance
+version: 0.1
 
 instances:
   custom:
